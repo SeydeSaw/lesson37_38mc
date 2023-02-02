@@ -1,14 +1,12 @@
-package test;
+package getterSetter;
 
-/*
-Объявить в методе приватные 2 поля Int age, String name
-Сделать конструктор
-Сделать Getter и Setter
-Создать метод main
-Создать экзэмпляр класса и присвоить ему значения
- */
+// TODO: 01.02.23
+//  Объявить в методе приватные 2 поля Int age, String name
+//  Сделать конструктор
+//  Сделать Getter и Setter
+//  Создать метод main
+//  Создать экзэмпляр класса и присвоить ему значения
 public class Test1 {
-
     //Объявить переменные:
     private int age;
     private String name;
@@ -18,7 +16,6 @@ public class Test1 {
         this.age = age;
         this.name = name;
     }
-
     //Создать Getter и Setter:
     public int getAge() {
         return age;
@@ -40,7 +37,6 @@ public class Test1 {
     public static void main(String[] args) {
         //объявляем экзэмпляр класса и присваиваем ему значения:
         Test1 test1 = new Test1(2, "Katja");
-
         //добавить 4 таких же экзэмпляра:
         Test1 test2 = new Test1(4, "Petja");
         Test1 test3 = new Test1(6, "Ira");
