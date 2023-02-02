@@ -9,6 +9,7 @@ import java.util.Random;
 //  Затем перевернуть этот массив и вывести на экран
 //  МОЙ ВАРИАНТ РЕШЕНИЯ
 public class Test_2 {
+
     //объявляем метод:
     public static void getArray(int[] array){
         //объявляем 2 массива:
