@@ -18,11 +18,10 @@ public class Test1 {
         //выводим на экран массив:
         System.out.println(Arrays.toString(array1));
     }
-
     //чтобы вывести метод на экран создаём метод main%
     public static void main(String[] args) {
         //объявляем массив и передаём метод:
-       //int[] array1 = new int[10];//определенаая длина
+        //int[] array1 = new int[10];//определенаая длина
         int[] array1 = new int[new Random().nextInt(100)];//рандомная длина
         //обращаемся к методу и вызываем массив:
         arrayExample(array1);
